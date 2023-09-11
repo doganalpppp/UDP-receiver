@@ -1,0 +1,9 @@
+prefix=/home/pilotpc/.conan/data/libbacktrace/cci.20210118/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libbacktrace
+Description: A C library that may be linked into a C/C++ program to produce symbolic backtraces.
+Version: cci.20210118
+Libs: -L"${libdir}" -lbacktrace  -Wl,-rpath,"${libdir}"
+Cflags: -I"${includedir}"

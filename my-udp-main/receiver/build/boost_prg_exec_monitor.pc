@@ -1,0 +1,10 @@
+prefix=/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: boost-boost_prg_exec_monitor
+Description: Conan package: boost-boost_prg_exec_monitor
+Version: 1.73.0
+Libs: -L"${libdir}" -lboost_prg_exec_monitor  -Wl,-rpath,"${libdir}"
+Cflags: -I"${includedir}"
+Requires: boost_test _libboost

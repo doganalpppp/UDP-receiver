@@ -1,0 +1,13 @@
+[options]
+prefix = /home/pilotpc/Desktop/my-ups-main/new_reciever/build/package
+libdir = lib
+bindir = bin
+sbindir = bin
+libexecdir = bin
+includedir = include
+default_library = shared
+backend = ninja
+buildtype = release
+
+[properties]
+

@@ -1,0 +1,10 @@
+prefix=/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: boost-boost_log
+Description: Conan package: boost-boost_log
+Version: 1.73.0
+Libs: -L"${libdir}" -lboost_log  -Wl,-rpath,"${libdir}"
+Cflags: -I"${includedir}"
+Requires: boost_atomic boost_container boost_date_time boost_exception boost_filesystem boost_locale boost_random boost_regex boost_system boost_thread _libboost

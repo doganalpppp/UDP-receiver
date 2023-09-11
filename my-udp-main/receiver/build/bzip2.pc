@@ -1,0 +1,9 @@
+prefix=/home/pilotpc/.conan/data/bzip2/1.0.8/_/_/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: bzip2
+Description: bzip2 is a free and open-source file compression program that uses the Burrows Wheeler algorithm.
+Version: 1.0.8
+Libs: -L"${libdir}" -lbz2  -Wl,-rpath,"${libdir}"
+Cflags: -I"${includedir}"

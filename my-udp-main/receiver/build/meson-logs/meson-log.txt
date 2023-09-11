@@ -1,0 +1,138 @@
+Build started at 2023-09-11T13:10:18.371287
+Main binary: /usr/bin/python3
+Build Options: -Dprefix=/home/pilotpc/Desktop/my-ups-main/new_reciever/build/package -Dlibdir=lib -Dbindir=bin -Dsbindir=bin -Dlibexecdir=bin -Dincludedir=include -Ddefault_library=shared -Dbackend=ninja -Dbuildtype=release
+Python system: Linux
+The Meson build system
+Version: 0.60.1
+Source dir: /home/pilotpc/Desktop/my-ups-main/new_reciever
+Build dir: /home/pilotpc/Desktop/my-ups-main/new_reciever/build
+Build type: native build
+Project name: new_reciever
+Project version: 1.0.0
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ sanitycheckcpp.cc -o sanitycheckcpp.exe -m64 -O3 -s -I/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/include -I/home/pilotpc/.conan/data/zlib/1.2.13/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include -I/home/pilotpc/.conan/data/bzip2/1.0.8/_/_/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/include -I/home/pilotpc/.conan/data/libbacktrace/cci.20210118/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include -DBOOST_STACKTRACE_ADDR2LINE_LOCATION=/usr/bin/addr2line -DBOOST_STACKTRACE_USE_ADDR2LINE -DBOOST_STACKTRACE_USE_BACKTRACE -DBOOST_STACKTRACE_USE_NOOP -DNDEBUG -D_GLIBCXX_USE_CXX11_ABI=0 -D_FILE_OFFSET_BITS=64 -L/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib -L/home/pilotpc/.conan/data/zlib/1.2.13/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib -L/home/pilotpc/.conan/data/bzip2/1.0.8/_/_/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/lib -L/home/pilotpc/.conan/data/libbacktrace/cci.20210118/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/pilotpc/Desktop/my-ups-main/new_reciever/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (gcc 9.4.0 "c++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0")
+C++ linker for the host machine: c++ ld.bfd 2.34
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ sanitycheckcpp.cc -o sanitycheckcpp.exe -m64 -O3 -s -I/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/include -I/home/pilotpc/.conan/data/zlib/1.2.13/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include -I/home/pilotpc/.conan/data/bzip2/1.0.8/_/_/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/include -I/home/pilotpc/.conan/data/libbacktrace/cci.20210118/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include -DBOOST_STACKTRACE_ADDR2LINE_LOCATION=/usr/bin/addr2line -DBOOST_STACKTRACE_USE_ADDR2LINE -DBOOST_STACKTRACE_USE_BACKTRACE -DBOOST_STACKTRACE_USE_NOOP -DNDEBUG -D_GLIBCXX_USE_CXX11_ABI=0 -D_FILE_OFFSET_BITS=64 -L/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib -L/home/pilotpc/.conan/data/zlib/1.2.13/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib -L/home/pilotpc/.conan/data/bzip2/1.0.8/_/_/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/lib -L/home/pilotpc/.conan/data/libbacktrace/cci.20210118/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/pilotpc/Desktop/my-ups-main/new_reciever/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: c++ (gcc 9.4.0 "c++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0")
+C++ linker for the build machine: c++ ld.bfd 2.34
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Checking potential boost root /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed
+  - potential library dirs: ['/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib']
+  - potential include dirs: ['/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/include']
+  - found boost library dir: /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib
+  - found boost 1.73.0 include dir: /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/include
+  - filtered library list:
+    - <LIB: SM ------ ??? ? x_xx boost_atomic                     /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_atomic.a>
+    - <LIB: SM ------ ??? ? x_xx boost_chrono                     /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_chrono.a>
+    - <LIB: SM ------ ??? ? x_xx boost_container                  /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_container.a>
+    - <LIB: SM ------ ??? ? x_xx boost_context                    /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_context.a>
+    - <LIB: SM ------ ??? ? x_xx boost_contract                   /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_contract.a>
+    - <LIB: SM ------ ??? ? x_xx boost_coroutine                  /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_coroutine.a>
+    - <LIB: SM ------ ??? ? x_xx boost_date_time                  /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_date_time.a>
+    - <LIB: SM ------ ??? ? x_xx boost_exception                  /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_exception.a>
+    - <LIB: SM ------ ??? ? x_xx boost_fiber                      /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_fiber.a>
+    - <LIB: SM ------ ??? ? x_xx boost_fiber_numa                 /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_fiber_numa.a>
+    - <LIB: SM ------ ??? ? x_xx boost_filesystem                 /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_filesystem.a>
+    - <LIB: SM ------ ??? ? x_xx boost_graph                      /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_graph.a>
+    - <LIB: SM ------ ??? ? x_xx boost_iostreams                  /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_iostreams.a>
+    - <LIB: SM ------ ??? ? x_xx boost_locale                     /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_locale.a>
+    - <LIB: SM ------ ??? ? x_xx boost_log                        /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_log.a>
+    - <LIB: SM ------ ??? ? x_xx boost_log_setup                  /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_log_setup.a>
+    - <LIB: SM ------ ??? ? x_xx boost_math_c99                   /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_math_c99.a>
+    - <LIB: SM ------ ??? ? x_xx boost_math_c99f                  /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_math_c99f.a>
+    - <LIB: SM ------ ??? ? x_xx boost_math_c99l                  /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_math_c99l.a>
+    - <LIB: SM ------ ??? ? x_xx boost_math_tr1                   /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_math_tr1.a>
+    - <LIB: SM ------ ??? ? x_xx boost_math_tr1f                  /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_math_tr1f.a>
+    - <LIB: SM ------ ??? ? x_xx boost_math_tr1l                  /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_math_tr1l.a>
+    - <LIB: SM ------ ??? ? x_xx boost_nowide                     /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_nowide.a>
+    - <LIB: SM ------ ??? ? x_xx boost_prg_exec_monitor           /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_prg_exec_monitor.a>
+    - <LIB: SM ------ ??? ? x_xx boost_program_options            /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_program_options.a>
+    - <LIB: SM ------ ??? ? x_xx boost_random                     /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_random.a>
+    - <LIB: SM ------ ??? ? x_xx boost_regex                      /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_regex.a>
+    - <LIB: SM ------ ??? ? x_xx boost_serialization              /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_serialization.a>
+    - <LIB: SM ------ ??? ? x_xx boost_stacktrace_addr2line       /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_stacktrace_addr2line.a>
+    - <LIB: SM ------ ??? ? x_xx boost_stacktrace_backtrace       /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_stacktrace_backtrace.a>
+    - <LIB: SM ------ ??? ? x_xx boost_stacktrace_basic           /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_stacktrace_basic.a>
+    - <LIB: SM ------ ??? ? x_xx boost_stacktrace_noop            /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_stacktrace_noop.a>
+    - <LIB: SM ------ ??? ? x_xx boost_system                     /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_system.a>
+    - <LIB: SM ------ ??? ? x_xx boost_test_exec_monitor          /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_test_exec_monitor.a>
+    - <LIB: SM ------ ??? ? x_xx boost_thread                     /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_thread.a>
+    - <LIB: SM ------ ??? ? x_xx boost_timer                      /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_timer.a>
+    - <LIB: SM ------ ??? ? x_xx boost_type_erasure               /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_type_erasure.a>
+    - <LIB: SM ------ ??? ? x_xx boost_unit_test_framework        /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_unit_test_framework.a>
+    - <LIB: SM ------ ??? ? x_xx boost_wave                       /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_wave.a>
+    - <LIB: SM ------ ??? ? x_xx boost_wserialization             /home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_wserialization.a>
+  - found:
+    - boost_thread             link=['/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_thread.a'] comp=['-DBOOST_THREAD_BUILD_LIB=1', '-DBOOST_THREAD_USE_LIB=1']
+    - boost_program_options    link=['/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_program_options.a'] comp=[]
+    - boost_log                link=['/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_log.a'] comp=[]
+    - boost_log_setup          link=['/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_log_setup.a'] comp=[]
+    - boost_filesystem         link=['/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_filesystem.a'] comp=['-DBOOST_FILESYSTEM_STATIC_LINK=1']
+    - boost_chrono             link=['/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_chrono.a'] comp=['-DBOOST_CHRONO_STATIC_LINK=1']
+    - boost_timer              link=['/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_timer.a'] comp=['-DBOOST_TIMER_STATIC_LINK=1']
+  - final compile args: ['-I/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/include', '-DBOOST_THREAD_USE_LIB=1', '-DBOOST_TIMER_STATIC_LINK=1', '-DBOOST_CHRONO_STATIC_LINK=1', '-DBOOST_THREAD_BUILD_LIB=1', '-DBOOST_FILESYSTEM_STATIC_LINK=1', '-DBOOST_ALL_NO_LIB']
+  - final link args:    ['/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_filesystem.a', '/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_thread.a', '/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_log_setup.a', '/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_program_options.a', '/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_chrono.a', '/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_timer.a', '/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/lib/libboost_log.a']
+Run-time dependency Boost (found: chrono, filesystem, log, log_setup, program_options, thread, timer) found: YES 1.73.0 (/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed)
+Build targets in project: 1
+
+new_reciever 1.0.0
+
+  User defined options
+    backend        : ninja
+    bindir         : bin
+    buildtype      : release
+    default_library: shared
+    includedir     : include
+    libdir         : lib
+    libexecdir     : bin
+    prefix         : /home/pilotpc/Desktop/my-ups-main/new_reciever/build/package
+    sbindir        : bin
+
+Found ninja-1.10.0.git.kitware.jobserver-1 at /usr/local/bin/ninja
+Running compile:
+Working directory:  /tmp/tmp1zf2okq2
+Command line:  c++ /tmp/tmp1zf2okq2/testfile.cpp -o /tmp/tmp1zf2okq2/output.obj -D_FILE_OFFSET_BITS=64 -c -std=c++17 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++17: YES
+Running compile:
+Working directory:  /home/pilotpc/Desktop/my-ups-main/new_reciever/build/meson-private/tmpl0vmaovu
+Command line:  c++ -I/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed/include -I/home/pilotpc/.conan/data/zlib/1.2.13/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include -I/home/pilotpc/.conan/data/bzip2/1.0.8/_/_/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/include -I/home/pilotpc/.conan/data/libbacktrace/cci.20210118/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include /home/pilotpc/Desktop/my-ups-main/new_reciever/build/meson-private/tmpl0vmaovu/testfile.cpp -o /home/pilotpc/Desktop/my-ups-main/new_reciever/build/meson-private/tmpl0vmaovu/output.obj -c -m64 -O3 -s -DBOOST_STACKTRACE_ADDR2LINE_LOCATION=/usr/bin/addr2line -DBOOST_STACKTRACE_USE_ADDR2LINE -DBOOST_STACKTRACE_USE_BACKTRACE -DBOOST_STACKTRACE_USE_NOOP -DNDEBUG -D_GLIBCXX_USE_CXX11_ABI=0 -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 

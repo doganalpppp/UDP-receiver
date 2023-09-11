@@ -1,0 +1,10 @@
+prefix=/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: boost-boost_math_c99l
+Description: Conan package: boost-boost_math_c99l
+Version: 1.73.0
+Libs: -L"${libdir}" -lboost_math_c99l  -Wl,-rpath,"${libdir}"
+Cflags: -I"${includedir}"
+Requires: boost_math _libboost

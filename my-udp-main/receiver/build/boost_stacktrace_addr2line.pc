@@ -1,0 +1,10 @@
+prefix=/home/pilotpc/.conan/data/boost/1.73.0/_/_/package/adf48b8e4446dcb68f440fe42ff08878d5c7feed
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: boost-boost_stacktrace_addr2line
+Description: Conan package: boost-boost_stacktrace_addr2line
+Version: 1.73.0
+Libs: -L"${libdir}" -lboost_stacktrace_addr2line  -ldl  -Wl,-rpath,"${libdir}"
+Cflags: -I"${includedir}" -DBOOST_STACKTRACE_ADDR2LINE_LOCATION=\"/usr/bin/addr2line\" -DBOOST_STACKTRACE_USE_ADDR2LINE
+Requires: boost_stacktrace _libboost
